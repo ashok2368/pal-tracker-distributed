@@ -1,6 +1,6 @@
 ---
 applications:
-  - name: tracker-registration-omega
+  - name: tracker-registration
     instances: 1
     memory: 256M
     disk_quota: 512M
