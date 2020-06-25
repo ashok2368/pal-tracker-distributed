@@ -7,7 +7,6 @@ applications:
     routes:
       - route: tracker-allocations-omega.cfapps.io
     path: Applications/AllocationsServer/bin/Release/netcoreapp3.1/publish
-    env:
-      REGISTRATION_SERVER_ENDPOINT: https://tracker-registration-omega.cfapps.io
     services:
       - tracker-allocations-database
+      - tracker-service-registry
